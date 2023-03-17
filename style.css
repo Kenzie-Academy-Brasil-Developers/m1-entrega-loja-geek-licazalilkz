@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+main{
+    font-family: 'Roboto', sans-serif;
+}
+
+article h3{
+    font-size: 20px;
+}
+
+article img{
+    width: 207px;
+    height: 50%;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+header {
+    border-bottom: 1px solid rgb(203, 194, 194);
+    display: flex;
+    align-items: center;
+    top: 0px;
+    justify-content: space-between;
+    padding-bottom: 15px;
+}
+
+header button{
+    background-color: #0A99FE;
+
+    font-size: 15px;
+    color: black;
+
+    width: 150px;
+    height: 40px;
+    border: 0px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+header button:active{
+    box-shadow: #0A99FE 10%;
+    opacity: 10%;
+}
+
+.produtoDiv ul{
+    display: flex;
+    gap: 10px;
+}
+
+.produtoDiv li{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgba(204, 204, 204, 0.958);
+    border-radius: 10px;
+    color: #868383;
+    border-radius: 10px;
+    font-size: 16px;
+    height: 275px;
+    margin-bottom: 20px;
+}
+
+.produtoDiv .produtoNome{
+    color: black;
+    font-size: 20px;
+}
+
+ul {
+    list-style-type: none;
+    overflow-x: auto;
+  }
